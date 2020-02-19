@@ -7,4 +7,4 @@ if home == "アメリカ":
 #そうでない時
 
 else:
-    print(HELLOW, WORLD)
+    print("HELLOW, WORLD")
