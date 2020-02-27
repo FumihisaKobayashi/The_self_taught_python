@@ -5,7 +5,7 @@
     kine3
 """
 
-#インデックス値で参照する。
+#a[int]で参照する。
 
 a = "AbcMart"
 print(a[0])
