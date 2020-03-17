@@ -16,6 +16,7 @@ class Tsuna(Primo):
         print('死ぬ気の零地点突破改！')
 #機能を引き継いで新しいclassをできる。
 
+#classを関数に直して出力
 if __name__ == "__main__":
     primo = Primo('aaa', 24)
     primo.show_skill_1()
