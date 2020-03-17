@@ -1,10 +1,14 @@
-#
+#キャメルアッパーケースKobafumi　~class のところは大文字~
+#スネークケース koba_fumi pythonはこれ
+#ルールみたいな所ある。
 class Student:
     def __init__(self, name, age, gender):
         self.name = name
         self.age = age
         self.gender = gender
 #classのなかに、関数を入れていく。
+
+#
     def add_age(self, num):
         self.age += num
 
