@@ -27,8 +27,10 @@ for c in "Hello":
     stack.push(c)
 #スタックの要素がある間ループして1文字ずつ取り出してreverse変数に書き足し
 reverse = ""
+
 #繰り返し処理終わると、順番が逆になり、OLLEHになる。
 while stack.size():
     reverse += stack.pop()
+
 
 print(reverse)
