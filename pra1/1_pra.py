@@ -1,12 +1,10 @@
-print("hello")
+
+print("Hello")
 
 a = 10
-if a <= 10
-    print("10以下")
+
+if a >= 3:
+    print("3以上１０未満")
 else:
     print("それ以外")
 
-b = 5
-
-print(a - b)
-print(a / b)
