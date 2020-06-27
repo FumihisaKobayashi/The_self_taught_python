@@ -33,3 +33,12 @@ with open("st.txt", "w") as f:
     f.write("Hi from Python")
 
 #code終了後ファイルを閉じる。
+
+#filechale
+
+a = input("明日は何曜日ですか？")
+
+with open("week.txt", "w") as f:
+    f.write(a)
+
+ 
